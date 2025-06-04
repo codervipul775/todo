@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.digiretail'
+    namespace 'com.anonymous.todoapp'
     defaultConfig {
-        applicationId 'com.anonymous.digiretail'
+        applicationId 'com.anonymous.todoapp'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

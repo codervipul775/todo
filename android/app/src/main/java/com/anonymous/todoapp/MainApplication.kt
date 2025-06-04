@@ -1,4 +1,4 @@
-package com.anonymous.digiretail
+package com.anonymous.todoapp
 
 import android.app.Application
 import android.content.res.Configuration

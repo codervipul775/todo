@@ -257,13 +257,13 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.digiretail";
-				PRODUCT_NAME = "DigiRetail";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.todoapp";
+				PRODUCT_NAME = "ToDoApp";
 				SWIFT_OBJC_BRIDGING_HEADER = "DigiRetail/DigiRetail-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
-				TARGETED_DEVICE_FAMILY = "1";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				CODE_SIGN_ENTITLEMENTS = DigiRetail/DigiRetail.entitlements;
 			};
 			name = Debug;
@@ -286,12 +286,12 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.digiretail";
-				PRODUCT_NAME = "DigiRetail";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.todoapp";
+				PRODUCT_NAME = "ToDoApp";
 				SWIFT_OBJC_BRIDGING_HEADER = "DigiRetail/DigiRetail-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
-				TARGETED_DEVICE_FAMILY = "1";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				CODE_SIGN_ENTITLEMENTS = DigiRetail/DigiRetail.entitlements;
 			};
 			name = Release;
