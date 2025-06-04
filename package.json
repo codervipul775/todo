@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-native-firebase/app": "^22.2.0",
+    "@react-native-firebase/auth": "^22.2.0",
+    "@react-native-firebase/firestore": "^22.2.0",
+    "@react-native-google-signin/google-signin": "^14.0.1",
+    "@react-navigation/native": "^7.1.10",
+    "@react-navigation/native-stack": "^7.3.14",
+    "@react-navigation/stack": "^7.3.3",
+    "expo": "^53.0.9",
+    "firebase": "^11.8.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-reanimated": "^3.18.0",
+    "react-native-safe-area-context": "^5.4.1",
+    "react-native-screens": "^4.11.1",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "^0.20.0",
+    "setimmediate": "^1.0.5"
+  },
+  "name": "DigiRetail",
+  "version": "1.0.0",
+  "scripts": {
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  }
+}

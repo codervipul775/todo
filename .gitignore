@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+*.js
+web-build/
+
+# metro
+.cache/
+dist/
+
+# build artifacts
+*.apk
+*.aab
+*.ipa
+
+# android
+android/.gradle/
+android/app/build/
+android/app/.idea/
+
+# ios
+ios/build/
+
+# vscode
+.vscode/
+
+# Other
+.DS_Store
+pm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# .env
+# .env.local 
