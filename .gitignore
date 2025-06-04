@@ -16,8 +16,10 @@ dist/
 *.ipa
 
 # android
-android/.gradle/
-android/app/build/
+android/.cxx
+android/app/.cxx
+android/app/build
+android/.gradle
 android/app/.idea/
 
 # ios
@@ -32,4 +34,9 @@ pm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 # .env
-# .env.local 
+# .env.local
+
+# React Native
+.bundle/
+vendor/
+*.hprof

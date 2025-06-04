@@ -26,7 +26,10 @@
   "version": "1.0.0",
   "scripts": {
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "clean": "cd android && ./gradlew clean && cd ..",
+    "clean:all": "watchman watch-del-all && rm -rf node_modules/ && rm -rf android/app/build/ && rm -rf android/.gradle/ && rm -rf android/.cxx/ && npm cache clean --force && npm install",
+    "postinstall": "npx expo prebuild && cd android && ./gradlew clean && cd .. && react-native config"
   },
   "devDependencies": {
     "@react-native-community/cli": "^18.0.0",
